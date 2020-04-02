@@ -1,4 +1,7 @@
-# vue-wasm-skeleton
+# vue-rust-skeleton
+
+This project will get you hooked up to using rust wasm in you vue app.
+
 
 ## Project setup
 ```
