@@ -1,7 +1,8 @@
 {
-  "name": "vue-wasm-skeleton",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-rust-skeleton",
+  "version": "1.0.0",
+  "private": false,
+  "author": "b-m-f<max@ehlers.berlin>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -15,9 +16,11 @@
     "@vue/cli-plugin-babel": "~4.2.0",
     "@vue/cli-plugin-eslint": "~4.2.0",
     "@vue/cli-service": "~4.2.0",
+    "@wasm-tool/wasm-pack-plugin": "github:wasm-tool/wasm-pack-plugin",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.1.2",
+    "text-encoding": "^0.7.0",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
